@@ -1,0 +1,90 @@
+.bg {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.main {
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    border: 1px solid black;
+
+}
+
+.center {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fname {
+    display: inline-flex;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.fname>label {
+    margin-top: 7px !important;
+}
+
+.input {
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.inputemail {
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 455px;
+}
+
+.inputpassword {
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 430px;
+}
+
+.inputcpassword {
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 370px;
+}
+
+.country {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.date {
+    width: 140px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.button {
+    margin-left: 200px;
+    margin-top: 30px;
+
+}
+
+.data {
+    width: 200px;
+    height: 30px;
+    background-color: #a16773;
+    border-radius: 10px;
+
+}
+
+.first {
+    text-decoration: none;
+    color: darkgray;
+    margin-left: 20px;
+}

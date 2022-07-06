@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Registration Form</title>
+    <link rel="stylesheet" href="./asstes/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./asstes/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body class="bg">
+    <div class="main my-5">
+      <h3 class="text-center mt-5">Responsive registration form</h3>
+      <div class="conatiner">
+        <div class="row ms-3 me-3">
+          <div class="col-sm-6">
+            <label for="fname">First Name:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="fname"
+              placeholder="First Name"
+              required
+            />
+          </div>
+          <div class="col-sm-6 ">
+        <label for="lname">Last Name:</label>
+        <input
+          type="text"
+          class="form-control"
+          id="lname"
+          placeholder="last Name"
+          required
+        />
+        </div>
+      </div>
+      <div class="row ms-3 me-3 mt-2">
+        <div class="col">
+             <label for="email" class="">Email:</label>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          placeholder="Email"
+          required
+        />
+        </div>
+      </div>
+            <div class="row ms-3 me-3 mt-2">
+        <div class="col">
+             <label for="password" class="">Password:</label>
+        <input
+          type="password"
+          class="form-control"
+          id="password"
+          placeholder="password"
+          required
+        />
+        </div>
+      </div>
+            <div class="row ms-3 me-3 mt-2">
+        <div class="col">
+             <label for="confirmPassword" class="">Confirm Password:</label>
+        <input
+          type="password"
+          class="form-control"
+          id="confirmPassword"
+          placeholder="Confirm Password"
+          required
+        />
+        </div>
+      </div>
+      <div class="row ms-3 mt-3" >
+        <div class="col">
+            <button type="button" class="btn btn-secondary" onclick="data()">ADD DATA</button>
+    <a href="./secondform.html" class="ms-3 text-decoration-none text-muted">second form</a>    
+    </div>
+      </div>
+    </div>
+     <script src="./asstes/js/data.js"></script>
+  </body>
+</html>
